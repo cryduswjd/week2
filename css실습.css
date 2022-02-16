@@ -2,8 +2,58 @@ body{
     background-color: white;
 }
 
-@media screen and (max-width:1000px) {
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Arial, 'Malgun Gothic', sans-serif;
+    font-size: 90px;
+    margin-top: 8%;
+    justify-content: center;
+}
+
+.style {
+    width: 38%;
+    border: 1.5px solid rgb(156, 156, 156, 1);
+    border-radius: 30px;
+    font-size: 100%;
+    margin-right: 31%;
+    margin-left: 31%;
+    margin-bottom: 3px;
+    margin-top: 50px;
+    padding-left: 15px;
+    color: rgb(156, 156, 156, 1);
+}
+
+span:nth-of-type(1) {
+    color: rgb(66, 133, 244, 1);
+}
+span:nth-of-type(2) {
+    color: rgb(234, 67, 53, 1);
+}
+span:nth-of-type(3) {
+    color: rgba(251, 188, 5, 1);
+}
+span:nth-of-type(4) {
+    color: rgba(66, 133, 244, 1);
+}
+span:nth-of-type(5) {
+    color: rgba(66, 133, 244, 1);
+}
+span:nth-of-type(6) {
+    color: rgba(234, 67, 53, 1);
+}
+
+@media screen and (max-width:400px) {
+
     body{
         background-color: black;
     }
+
+    span{
+        margin-top: 50px;
+        font-size: 50px;
+     }
+
 }
